@@ -1,0 +1,21 @@
+{
+  "name": "galactus",
+  "version": "1.0.0",
+  "description": "chat service",
+  "scripts": {
+    "start": "DEBUG=galactus node ./bin/www",
+    "local": "nodemon bin/www"
+  },
+  "author": "Surya Singh <me@suryasingh.xyz>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.4",
+    "ioredis": "^4.9.0",
+    "mongoose": "^5.5.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0"
+  }
+}
